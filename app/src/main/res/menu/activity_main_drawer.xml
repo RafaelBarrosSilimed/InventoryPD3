@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Scan" />
+        <item
+            android:id="@+id/nav_leituras"
+            android:icon="@drawable/ic_leituras_black_24dp"
+            android:title="Leituras" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_status_black_24dp"
+            android:title="Status" />
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_ajuda_black_24dp"
+            android:title="Ajuda" />
+    </group>
+
+    <item android:title="Outras Opções">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_sobre_black_24dp"
+                android:title="Sobre" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
